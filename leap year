@@ -1,0 +1,13 @@
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner (System.in);
+        int ly=sc.nextInt();
+        if(ly%400==0 || ly%100!=0 && ly%4 == 0 ){
+            System.out.println(ly + " is a leap yr");
+        }
+        else{
+            System.out.println("not a lp yr");
+        }
+    }
+}
